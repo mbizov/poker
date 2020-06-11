@@ -1,5 +1,6 @@
 package poker;
-import java.util.*;
+
+import java.util.Random;
 
 class Card {
     private String face;
@@ -14,7 +15,6 @@ class Card {
         return face + " of " + suit;
     }
 }
-
 
 class Deck {
     public Deck() {
@@ -38,15 +38,8 @@ class Deck {
 
 }
 
-class Engine {
-
-}
-
-public class Main {
-
-    public static void main(String[] args) {
 
 
+public class Engine {
 
-    }
 }
