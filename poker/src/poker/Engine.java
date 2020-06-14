@@ -19,7 +19,7 @@ class Card {
 class Deck {
     private String faces[] = { "Deuce", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace" };
     private String suits[] = { "Diamonds", "Hearts", "Clubs", "Spades" };
-    private DECK_SIZE = 52;
+    private int DECK_SIZE = 52;
     private int currCard = 0;
     private Random rng = new Random();
     Card deck[];
